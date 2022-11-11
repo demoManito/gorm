@@ -76,7 +76,6 @@ func TestMigrate(t *testing.T) {
 			t.Fatalf("Failed to find index for many2many for %v %v", indexes[0], indexes[1])
 		}
 	}
-
 }
 
 func TestAutoMigrateInt8PG(t *testing.T) {
